@@ -22,3 +22,10 @@
   border: 1px solid red;
 }
 
+.button2 {
+  background-color: orange;
+}
+
+.synopsis em{
+  color: blue;
+}
