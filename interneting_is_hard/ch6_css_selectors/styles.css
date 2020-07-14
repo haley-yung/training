@@ -1,73 +1,44 @@
-.synopsis {
-  color: red;
-  font-style: italic;
-}
-
-.button:link,
-.button:visited {
-  color: #FFF;
-  background-color: #5995DA;
-  font-weight: bold;
-  padding: 20px;
-  text-align: center;
-  border: 2px solid #5D6063;
-  border-radius: 2px;
-
-  width: 200px;
-  margin: 0 auto;
-  display: block;
-  text-decoration:none;
-}
-
-.button:visited:active,
-.button:active {
-  color: #FFF;
-  background-color:#5995DA;
-}
-
 .page {
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
   border: 1px solid red;
 }
 
-.button2:link,
-.button2:visited{
-  background-color: orange;
-}
-
-
-
-.synopsis em{
-  color: blue;
-}
-
-a:link {
-  color: blue;
+.button:visited,
+.button:link{
+  color: white;
+  background-color: #5995DA;
+  width: 200px;
+  display: block;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 20px;
   text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
 }
 
-a:active {
-  color: red;
+.button:hover {
+  background-color: #76AEED;
 }
 
-a:visited {
-  color: aqua;
+.button:active {
+  background-color:#5995DA;
 }
 
-a:hover {
-  color:orange;
-  text-decoration: underline;
+.button2:visited,
+.button2:link{
+  margin-top: 20px;
+  background-color: #EEB75A;
 }
 
-a:visited:hover {
-  color: brown;
+.button2:hover,
+.button2:visited:hover  {
+  background-color:#F5CF8E;
 }
 
-a:visited:active {
-  color: red;
-}
 
-p:last-of-type {
-  margin-bottom: 100px;
+.button2:active,
+.button2:visited:active {
+  background-color: #EEB75A;
 }
