@@ -42,3 +42,27 @@
 .button2:visited:active {
   background-color: #EEB75A;
 }
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+
+a:visited:hover {
+  color: orange;
+}
+
+a:visited:active {
+  color: red;
+}
+
