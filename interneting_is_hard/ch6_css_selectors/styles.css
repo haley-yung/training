@@ -3,7 +3,8 @@
   font-style: italic;
 }
 
-.button {
+.button:link,
+.button:visited {
   color: #FFF;
   background-color: #5995DA;
   font-weight: bold;
@@ -14,6 +15,14 @@
 
   width: 200px;
   margin: 0 auto;
+  display: block;
+  text-decoration:none;
+}
+
+.button:visited:active,
+.button:active {
+  color: #FFF;
+  background-color:#5995DA;
 }
 
 .page {
@@ -22,10 +31,43 @@
   border: 1px solid red;
 }
 
-.button2 {
+.button2:link,
+.button2:visited{
   background-color: orange;
 }
 
+
+
 .synopsis em{
   color: blue;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:hover {
+  color:orange;
+  text-decoration: underline;
+}
+
+a:visited:hover {
+  color: brown;
+}
+
+a:visited:active {
+  color: red;
+}
+
+p:last-of-type {
+  margin-bottom: 100px;
 }
